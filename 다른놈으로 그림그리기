@@ -1,0 +1,17 @@
+fig, ax = plt.subplots(figsize=(8, 8))
+corr = fueleco[['co2', 'comb08', 'highway08']].corr()
+
+mask = np.zeros_like(corr, dtype=bool)
+mask[np.triu_indices_from(mask)] = True
+
+sns.heatmap(
+    corr,
+    mask=mask,
+    fmt='.2f', #fmt 는 포맷을 말함 이 안에 숫자를 어케 표현해줄까를 말함 2f는 소숫점 2개까지
+    annot=True, #annot 은 상자안에 데이터 표시해줄까 말까 임
+    ax=ax,
+    cmap='RdBu', #cmap은 컬럼맵으로, 컬럼 색을 설정
+    vmin=-1, # 범
+    vmax=1,
+    square=True
+)
