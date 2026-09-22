@@ -21,7 +21,7 @@ Recall을 핵심 지표로 두고 XGBoost, LightGBM, CatBoost, Stacking, Optuna,
 
 **Python · Scikit-learn · XGBoost · LightGBM · CatBoost · Optuna**
 
-### DARE · Product Analytics Internship
+### [DARE · Product Analytics Internship](./case-studies/product-analytics-internship/README.md)
 실제 서비스의 MongoDB 행동·결제·초대·추천 로그를 검증하고 사용자 단위 지표를 정의·분석했습니다.  
 회사 데이터와 내부 코드는 공개하지 않으며, 공개 가능한 분석 흐름과 결과는 포트폴리오에 정리했습니다.
 
@@ -35,6 +35,7 @@ Recall을 핵심 지표로 두고 XGBoost, LightGBM, CatBoost, Stacking, Optuna,
 
 ## Data Analysis Case Studies
 
+- [Product Analytics Internship](./case-studies/product-analytics-internship/README.md) — MongoDB 로그 · 지표 정의 · 데이터 검증 · 추천 분석
 - [Olist E-commerce Analytics](./case-studies/olist/README.md) — 데이터 전처리 · Seller 전략 · 고객 유지 · 배송 분석
 - [LendingClub Credit Risk Modeling](./case-studies/lendingclub/README.md) — 불균형 분류 · 모델 비교 · XGBoost · SHAP
 - [Case Study Index](./case-studies/README.md)
