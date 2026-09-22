@@ -32,7 +32,7 @@
 - 배송기간과 만족도 관계 분석
 - Tableau 대시보드 기반 의사결정 구조
 
-> Olist 분석은 독립 Repository로 분리했습니다. 현재 확인된 원본은 발표자료 PDF이며, 코드가 확인되지 않은 부분은 Case Study로만 정리했습니다.
+> Olist 분석은 독립 Repository로 분리했습니다. 이후 원본 분석 notebook도 복구되어 cleaned notebook과 preprocessing code를 함께 공개했습니다.
 
 ## 3. LendingClub Credit Risk Modeling
 
@@ -47,4 +47,4 @@ LendingClub 대출 데이터를 이용해 상환 실패 가능성을 분류하�
 - Precision / Recall / F1 / ROC AUC / PR AUC / KS
 - SHAP 기반 해석
 
-> LendingClub은 독립 Repository로 분리했고, Google Drive 원본 Colab notebook을 기준으로 검토 가능한 Python pipeline을 함께 정리했습니다.
+> LendingClub은 독립 Repository로 분리했고, 복구된 실험 notebook을 leakage-safe 형태로 정리한 notebook과 Python pipeline을 함께 공개했습니다.
