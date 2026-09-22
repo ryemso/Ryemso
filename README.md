@@ -9,13 +9,13 @@
 
 ## Featured Work
 
-### [Heat Demand Forecasting](https://github.com/ryemso/ryemso-Utilizing-LSTM-Techniques-for-the-Weather-Contest)
+### [Heat Demand Forecasting](https://github.com/ryemso/heat-demand-forecasting)
 시간 단위 기상 데이터 기반 열수요 예측 프로젝트입니다.  
 BiLSTM, CNN-LSTM, Attention 계열 구조를 비교하고 시퀀스 생성·스케일링·검증 구간 문제를 점검해 **검증 RMSE 21.7 → 17.2**를 기록했습니다.
 
 **Python · TensorFlow/Keras · LSTM · CNN · Attention · Time Series**
 
-### [Cognitive Impairment Prediction](https://github.com/ryemso/Dementia-Prediction-Machine-Learning-Stacking)
+### [Cognitive Impairment Prediction](https://github.com/ryemso/cognitive-impairment-prediction)
 50세 이상 인구의 인지장애 경험 여부를 예측하는 분류 프로젝트입니다.  
 Recall을 핵심 지표로 두고 XGBoost, LightGBM, CatBoost, Stacking, Optuna, Threshold 조정을 실험했습니다.
 
