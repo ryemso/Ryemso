@@ -21,7 +21,7 @@
 
 ## 2. Olist E-commerce Analytics
 
-[Case Study 보기](./olist/README.md)
+[독립 Repository 보기](https://github.com/ryemso/olist-ecommerce-analytics)
 
 브라질 Olist 전자상거래 데이터를 이용해 Seller 확보, 고객 유지, 배송 지연 문제를 분석했습니다.
 
@@ -32,11 +32,11 @@
 - 배송기간과 만족도 관계 분석
 - Tableau 대시보드 기반 의사결정 구조
 
-> 연결된 Drive에서 확인된 원본은 발표자료 PDF입니다. 분석 코드 파일은 확인되지 않아 발표자료에 근거한 Case Study로만 정리했습니다.
+> Olist 분석은 독립 Repository로 분리했습니다. 현재 확인된 원본은 발표자료 PDF이며, 코드가 확인되지 않은 부분은 Case Study로만 정리했습니다.
 
 ## 3. LendingClub Credit Risk Modeling
 
-[Case Study 보기](./lendingclub/README.md) · [Refactored Code](./lendingclub/modeling_pipeline.py)
+[독립 Repository 보기](https://github.com/ryemso/lendingclub-credit-risk) · [Refactored Code](https://github.com/ryemso/lendingclub-credit-risk/blob/main/src/modeling_pipeline.py)
 
 LendingClub 대출 데이터를 이용해 상환 실패 가능성을 분류하고 불균형 처리와 모델 비교를 수행했습니다.
 
@@ -47,4 +47,4 @@ LendingClub 대출 데이터를 이용해 상환 실패 가능성을 분류하�
 - Precision / Recall / F1 / ROC AUC / PR AUC / KS
 - SHAP 기반 해석
 
-> 코드는 Google Drive의 원본 Colab notebook을 포트폴리오 검토용으로 재구성한 버전입니다.
+> LendingClub은 독립 Repository로 분리했고, Google Drive 원본 Colab notebook을 기준으로 검토 가능한 Python pipeline을 함께 정리했습니다.
