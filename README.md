@@ -33,6 +33,12 @@ Recall을 핵심 지표로 두고 XGBoost, LightGBM, CatBoost, Stacking, Optuna,
 
 **JavaScript · Game Systems · Event Logging · Analytics**
 
+## Data Analysis Case Studies
+
+- [Olist E-commerce Analytics](./case-studies/olist/README.md) — 데이터 전처리 · Seller 전략 · 고객 유지 · 배송 분석
+- [LendingClub Credit Risk Modeling](./case-studies/lendingclub/README.md) — 불균형 분류 · 모델 비교 · XGBoost · SHAP
+- [Case Study Index](./case-studies/README.md)
+
 ## Portfolio
 
 - [Product Data Analyst](https://kimsportpolio.netlify.app/?ver=analyst)
