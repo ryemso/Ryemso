@@ -1,5 +1,15 @@
 # 김동현 | Data Analyst · AI/ML
 
+```text
+┌─ ~/data-lab
+│
+├─ asking better questions
+├─ testing assumptions
+├─ building stronger evidence
+│
+└─ still iterating_
+```
+
 사용자 행동 데이터 분석부터 ML/DL 모델링까지, 데이터를 실제 문제 정의와 의사결정으로 연결하는 작업을 하고 있습니다.
 
 - **Data / Product Analytics**: SQL, Python, MongoDB, Amplitude, Tableau
