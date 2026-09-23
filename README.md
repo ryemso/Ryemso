@@ -25,6 +25,14 @@ BiLSTM, CNN-LSTM, Attention 계열 구조를 비교하고 시퀀스 생성·스�
 
 **Python · TensorFlow/Keras · LSTM · CNN · Attention · Time Series**
 
+### [Hanwoo Grade Prediction](https://github.com/ryemso/Hanwoo_ranke)
+한우 개체·혈통·농장/지역·기상 데이터를 결합해 `LAST_GRADE` 16개 등급을 예측한 다중분류 프로젝트입니다.  
+train에만 존재하는 도축 후 판정 변수의 누수 가능성을 제거하고, 실제 test에서 사용할 수 있는 정보만으로 피처를 재설계해 **CatBoost + XGBoost 확률 앙상블 / Public Macro-F1 0.219**를 기록했습니다.
+
+분석을 많이 하는 것보다 **육질·육량·등외 여부처럼 실제 등급이 결정되는 구조를 모델링해야 한다**는 점을 회고로 남겼습니다.
+
+**Python · CatBoost · XGBoost · Feature Engineering · Multi-class Classification**
+
 ### [Cognitive Impairment Prediction](https://github.com/ryemso/cognitive-impairment-prediction)
 50세 이상 인구의 인지장애 경험 여부를 예측하는 분류 프로젝트입니다.  
 Recall을 핵심 지표로 두고 XGBoost, LightGBM, CatBoost, Stacking, Optuna, Threshold 조정을 실험했습니다.
@@ -48,6 +56,7 @@ Recall을 핵심 지표로 두고 XGBoost, LightGBM, CatBoost, Stacking, Optuna,
 - [Product Analytics Internship](./case-studies/product-analytics-internship/README.md) — MongoDB 로그 · 지표 정의 · 데이터 검증 · 추천 분석
 - [Olist E-commerce Analytics](https://github.com/ryemso/olist-ecommerce-analytics) — 데이터 전처리 · Seller 전략 · 고객 유지 · 배송 분석
 - [LendingClub Credit Risk Modeling](https://github.com/ryemso/lendingclub-credit-risk) — 불균형 분류 · 모델 비교 · XGBoost · SHAP
+- [Hanwoo Grade Prediction](https://github.com/ryemso/Hanwoo_ranke) — 16-class 분류 · 누수 변수 점검 · CatBoost/XGBoost 앙상블 · 도메인 구조 회고
 - [Case Study Index](./case-studies/README.md)
 
 ## Portfolio
