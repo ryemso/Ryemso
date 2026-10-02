@@ -42,6 +42,15 @@ ML/DL 프로젝트 경험도 보유하고 있지만, 현재 가장 자신 있게
 
 ## Selected Projects
 
+### [Cat Hero 보스 보상 수집 · 정산](https://github.com/ryemso/cat_hero_boss_reward)
+특정 보상이 유독 잘 나오지 않는다는 체감을 실제 기록으로 확인하기 위해 제작했습니다.  
+스크린샷 OCR로 보상·수량을 인식하고, 사용자가 확인한 기록과 클리어 날짜·시간을 수집해 **보스별 보상 등장 빈도와 클리어 시간대별 보상 분포**를 분석할 데이터를 쌓습니다.
+
+현재 보상 수기 입력·마스터 연결, 정산, 원본·마킹 이미지 자동 전송, 관리자 조회·CSV 내보내기를 구현했으며, 시간대별 분석은 수집 데이터로 진행할 예정입니다.  
+[웹판 사용하기](https://ryemso.github.io/cat_hero_boss_reward/)
+
+**Python · JavaScript · OCR · Supabase · Data Collection · GitHub Actions**
+
 ### [Olist E-commerce Analytics](https://github.com/ryemso/olist-ecommerce-analytics)
 주문·결제·고객·상품·리뷰 데이터를 결합하며 n:n join 중복을 검증하고, **Seller 확보 · 고객 유지 · 배송 경험**을 분석했습니다.  
 관측 데이터의 상관·회귀 결과를 인과효과로 과장하지 않고 비즈니스 우선순위로 연결했습니다.
